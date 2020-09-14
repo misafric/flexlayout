@@ -10,10 +10,18 @@
     padding: 4rem;
     margin: 0;
 }
+.main {
+    display: flex;
+    flex-direction: row; /*makes it stay in a row*/
+    min-height: 100vh;
+}
 
+.main__box {
+    padding: 1em;
+}
 .sidebar {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*makes the text stay in columns*/
     flex-grow: 1;
     color:white;
     background-color: rgb(255, 72, 0);
@@ -29,6 +37,7 @@
     background-color: white;
     font-weight: 800;
     padding: 1rem;
+    border-bottom: 1px solid grey;
 }
 
 article p {
