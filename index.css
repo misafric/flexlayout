@@ -1,0 +1,45 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    padding: 4rem;
+    margin: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color:white;
+    background-color: rgb(255, 72, 0);
+    font-weight: 800;
+    padding: 4rem;
+    margin: 0;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: white;
+    font-weight: 800;
+    padding: 1rem;
+}
+
+article p {
+    padding: 1rem;
+}
+
+.footer {
+    color: white;
+    background-color: grey;
+    font-weight: 800;
+    padding: 4rem;
+    margin: 0;
+}
+
