@@ -26,17 +26,19 @@
     color:white;
     background-color: rgb(255, 72, 0);
     font-weight: 800;
-    padding: 4rem;
+    padding: 10em 5em;
     margin: 0;
+    width: 8rem;
 }
 
 .article {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     flex-grow: 1;
     background-color: white;
     font-weight: 800;
-    padding: 1rem;
+    padding: 4rem;
     border-bottom: 1px solid grey;
 }
 
